@@ -1,3 +1,4 @@
+
 package xrpc
 
 import (
@@ -11,12 +12,14 @@ import (
 	"net/url"
 	"strconv"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/bluesky-social/indigo/util"
 	"github.com/carlmjohnson/versioninfo"
 )
 
+// A thread-safe client
 type Client struct {
 	// Client is an HTTP client to use. If not set, defaults to http.RobustHTTPClient().
 	Client     *http.Client
@@ -25,9 +28,12 @@ type Client struct {
 	Host       string
 	UserAgent  *string
 	Headers    map[string]string
+    mu sync.RWMutex
 }
 
 func (c *Client) getClient() *http.Client {
+    c.mu.RLock()
+    defer c.mu.RUnlock()
 	if c.Client == nil {
 		return util.RobustHTTPClient()
 	}
@@ -163,7 +169,7 @@ func (c *Client) Do(ctx context.Context, kind XRPCRequestType, inpenc string, me
 		paramStr = "?" + makeParams(params)
 	}
 
-	req, err := http.NewRequest(m, c.Host+"/xrpc/"+method+paramStr, body)
+	req, err := http.NewRequest(m, c.GetHostAsync()+"/xrpc/"+method+paramStr, body)
 	if err != nil {
 		return err
 	}
@@ -171,23 +177,28 @@ func (c *Client) Do(ctx context.Context, kind XRPCRequestType, inpenc string, me
 	if bodyobj != nil && inpenc != "" {
 		req.Header.Set("Content-Type", inpenc)
 	}
-	if c.UserAgent != nil {
-		req.Header.Set("User-Agent", *c.UserAgent)
+
+    userAgent := c.GetUserAgentAsync()
+	if userAgent != nil {
+		req.Header.Set("User-Agent", *userAgent)
 	} else {
 		req.Header.Set("User-Agent", "indigo/"+versioninfo.Short())
 	}
 
-	if c.Headers != nil {
-		for k, v := range c.Headers {
+    headers := c.GetHeadersAsync()
+	if headers != nil {
+		for k, v := range headers {
 			req.Header.Set(k, v)
 		}
 	}
 
+    auth := c.GetAuthAsync()
+    adminToken := c.GetAdminTokenAsync()
 	// use admin auth if we have it configured and are doing a request that requires it
-	if c.AdminToken != nil && (strings.HasPrefix(method, "com.atproto.admin.") || strings.HasPrefix(method, "tools.ozone.") || method == "com.atproto.server.createInviteCode" || method == "com.atproto.server.createInviteCodes") {
-		req.Header.Set("Authorization", "Basic "+base64.StdEncoding.EncodeToString([]byte("admin:"+*c.AdminToken)))
-	} else if c.Auth != nil {
-		req.Header.Set("Authorization", "Bearer "+c.Auth.AccessJwt)
+	if adminToken != nil && (strings.HasPrefix(method, "com.atproto.admin.") || strings.HasPrefix(method, "tools.ozone.") || method == "com.atproto.server.createInviteCode" || method == "com.atproto.server.createInviteCodes") {
+		req.Header.Set("Authorization", "Basic "+base64.StdEncoding.EncodeToString([]byte("admin:"+*adminToken)))
+	} else if auth != (AuthInfo{}) {
+		req.Header.Set("Authorization", "Bearer "+auth.AccessJwt)
 	}
 
 	resp, err := c.getClient().Do(req.WithContext(ctx))
@@ -227,3 +238,91 @@ func (c *Client) Do(ctx context.Context, kind XRPCRequestType, inpenc string, me
 
 	return nil
 }
+
+// Getters and setters for fields of Client 
+
+// Copy the auth field instead of returning a pointer, so we can safely modify it afterwards
+func (c *Client) GetAuthAsync() AuthInfo {
+    c.mu.RLock()
+    defer c.mu.RUnlock()
+    if c.Auth != nil {
+        return *c.Auth 
+    }
+    return AuthInfo{}
+}
+
+func (c *Client) SetAuthAsync(auth AuthInfo) {
+    c.mu.Lock()
+    defer c.mu.Unlock()
+    c.Auth = &auth
+}
+
+func (c *Client) GetAdminTokenAsync() *string {
+    c.mu.RLock()
+    defer c.mu.RUnlock()
+    return c.AdminToken
+}
+
+func (c *Client) SetAdminTokenAsync(token *string) {
+    c.mu.Lock()
+    defer c.mu.Unlock()
+    c.AdminToken = token
+}
+
+func (c *Client) GetHostAsync() string {
+    c.mu.RLock()
+    defer c.mu.RUnlock()
+    return c.Host
+}
+
+func (c *Client) SetHostAsync(host string) {
+    c.mu.Lock()
+    defer c.mu.Unlock()
+    c.Host = host
+}
+
+func (c *Client) GetHeadersAsync() map[string]string {
+    c.mu.RLock()
+    defer c.mu.RUnlock()
+	headers := make(map[string]string, len(c.Headers))
+	for k, v := range c.Headers {
+		headers[k] = v
+	}
+	return headers
+}
+
+func (c *Client) GetHeaderAsync(key string) (string, bool) {
+    c.mu.RLock()
+    defer c.mu.RUnlock()
+    val, ok := c.Headers[key]
+	return val, ok
+}
+
+func (c *Client) SetHeaderAsync(key, value string) {
+    c.mu.Lock()
+    defer c.mu.Unlock()
+    c.Headers[key] = value
+}
+
+func (c *Client) GetUserAgentAsync() *string {
+    c.mu.RLock()
+    defer c.mu.RUnlock()
+    return c.UserAgent
+}
+
+func (c *Client) SetUserAgentAsync(userAgent *string) {
+    c.mu.Lock()
+    defer c.mu.Unlock()
+    c.UserAgent = userAgent
+}
+
+func (c *Client) GetClientAsync() *http.Client {
+    return c.getClient()
+}
+
+func (c *Client) SetClientAsync(client *http.Client) {
+    c.mu.Lock()
+    defer c.mu.Unlock()
+    c.Client = client
+}
+
