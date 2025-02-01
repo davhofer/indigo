@@ -7,7 +7,7 @@ package atproto
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // LabelQueryLabels_Output is the output of a com.atproto.label.queryLabels call.

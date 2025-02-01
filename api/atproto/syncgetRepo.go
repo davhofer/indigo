@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // SyncGetRepo calls the XRPC method "com.atproto.sync.getRepo".

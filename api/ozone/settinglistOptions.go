@@ -7,7 +7,7 @@ package ozone
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // SettingListOptions_Output is the output of a tools.ozone.setting.listOptions call.

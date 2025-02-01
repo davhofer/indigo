@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bluesky-social/indigo/automod"
-	"github.com/bluesky-social/indigo/automod/countstore"
-	"github.com/bluesky-social/indigo/automod/helpers"
+	"github.com/davhofer/indigo/automod"
+	"github.com/davhofer/indigo/automod/countstore"
+	"github.com/davhofer/indigo/automod/helpers"
 )
 
 var dailyRepostThresholdWithoutPost = 30

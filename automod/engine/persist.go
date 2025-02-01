@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	toolsozone "github.com/bluesky-social/indigo/api/ozone"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	toolsozone "github.com/davhofer/indigo/api/ozone"
 )
 
 func (eng *Engine) persistCounters(ctx context.Context, eff *Effects) error {

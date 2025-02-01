@@ -11,14 +11,14 @@ import (
 	"time"
 
 	"github.com/araddon/dateparse"
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/api/bsky"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/api/bsky"
+	lexutil "github.com/davhofer/indigo/lex/util"
 	"github.com/goccy/go-json"
 
-	"github.com/bluesky-social/indigo/events"
-	"github.com/bluesky-social/indigo/repo"
-	"github.com/bluesky-social/indigo/repomgr"
+	"github.com/davhofer/indigo/events"
+	"github.com/davhofer/indigo/repo"
+	"github.com/davhofer/indigo/repomgr"
 	"go.opentelemetry.io/otel"
 )
 

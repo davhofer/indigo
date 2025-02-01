@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/atproto/syntax"
+	lexutil "github.com/davhofer/indigo/lex/util"
 
 	"github.com/urfave/cli/v2"
 )

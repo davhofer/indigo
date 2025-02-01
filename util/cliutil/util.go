@@ -16,9 +16,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bluesky-social/indigo/api"
-	"github.com/bluesky-social/indigo/did"
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/api"
+	"github.com/davhofer/indigo/did"
+	"github.com/davhofer/indigo/xrpc"
 	slogGorm "github.com/orandin/slog-gorm"
 	"github.com/urfave/cli/v2"
 	"gorm.io/driver/postgres"

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bluesky-social/indigo/api/agnostic"
+	"github.com/davhofer/indigo/api/agnostic"
 
 	"github.com/urfave/cli/v2"
 )

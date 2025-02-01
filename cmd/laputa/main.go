@@ -4,11 +4,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bluesky-social/indigo/api"
-	"github.com/bluesky-social/indigo/carstore"
-	"github.com/bluesky-social/indigo/pds"
-	"github.com/bluesky-social/indigo/plc"
-	"github.com/bluesky-social/indigo/util/cliutil"
+	"github.com/davhofer/indigo/api"
+	"github.com/davhofer/indigo/carstore"
+	"github.com/davhofer/indigo/pds"
+	"github.com/davhofer/indigo/plc"
+	"github.com/davhofer/indigo/util/cliutil"
 
 	_ "github.com/joho/godotenv/autoload"
 	_ "go.uber.org/automaxprocs"

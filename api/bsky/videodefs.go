@@ -5,7 +5,7 @@ package bsky
 // schema: app.bsky.video.defs
 
 import (
-	"github.com/bluesky-social/indigo/lex/util"
+	"github.com/davhofer/indigo/lex/util"
 )
 
 // VideoDefs_JobStatus is a "jobStatus" in the app.bsky.video.defs schema.

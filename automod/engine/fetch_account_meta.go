@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"time"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	toolsozone "github.com/bluesky-social/indigo/api/ozone"
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/xrpc"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	toolsozone "github.com/davhofer/indigo/api/ozone"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 var newAccountRetryDuration = 3 * 1000 * time.Millisecond

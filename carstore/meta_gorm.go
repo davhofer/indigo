@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bluesky-social/indigo/models"
+	"github.com/davhofer/indigo/models"
 	"github.com/ipfs/go-cid"
 	"go.opentelemetry.io/otel"
 	"gorm.io/driver/postgres"

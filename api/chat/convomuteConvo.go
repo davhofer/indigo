@@ -7,7 +7,7 @@ package chat
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // ConvoMuteConvo_Input is the input argument to a chat.bsky.convo.muteConvo call.

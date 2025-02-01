@@ -7,7 +7,7 @@ package atproto
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // SyncListBlobs_Output is the output of a com.atproto.sync.listBlobs call.

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bluesky-social/indigo/api/agnostic"
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
+	"github.com/davhofer/indigo/api/agnostic"
+	comatproto "github.com/davhofer/indigo/api/atproto"
 
 	"github.com/urfave/cli/v2"
 )

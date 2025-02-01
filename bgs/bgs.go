@@ -18,17 +18,17 @@ import (
 	"time"
 
 	"contrib.go.opencensus.io/exporter/prometheus"
-	"github.com/bluesky-social/indigo/api"
-	atproto "github.com/bluesky-social/indigo/api/atproto"
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/carstore"
-	"github.com/bluesky-social/indigo/did"
-	"github.com/bluesky-social/indigo/events"
-	"github.com/bluesky-social/indigo/indexer"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
-	"github.com/bluesky-social/indigo/models"
-	"github.com/bluesky-social/indigo/repomgr"
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/api"
+	atproto "github.com/davhofer/indigo/api/atproto"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/carstore"
+	"github.com/davhofer/indigo/did"
+	"github.com/davhofer/indigo/events"
+	"github.com/davhofer/indigo/indexer"
+	lexutil "github.com/davhofer/indigo/lex/util"
+	"github.com/davhofer/indigo/models"
+	"github.com/davhofer/indigo/repomgr"
+	"github.com/davhofer/indigo/xrpc"
 	lru "github.com/hashicorp/golang-lru/v2"
 	"golang.org/x/sync/semaphore"
 	"golang.org/x/time/rate"
@@ -455,7 +455,7 @@ d8888b. d888888b  d888b  .d8888. db   dD db    db
 88   8D   .88.   88. ~8~ db   8D 88 '88.    88
 Y8888P' Y888888P  Y888P  '8888Y' YP   YD    YP
 
-This is an atproto [https://atproto.com] relay instance, running the 'bigsky' codebase [https://github.com/bluesky-social/indigo]
+This is an atproto [https://atproto.com] relay instance, running the 'bigsky' codebase [https://github.com/davhofer/indigo]
 
 The firehose WebSocket path is at:  /xrpc/com.atproto.sync.subscribeRepos
 `

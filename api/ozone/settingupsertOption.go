@@ -7,8 +7,8 @@ package ozone
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/lex/util"
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/lex/util"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // SettingUpsertOption_Input is the input argument to a tools.ozone.setting.upsertOption call.

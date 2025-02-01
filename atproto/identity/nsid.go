@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/atproto/syntax"
 )
 
 var (

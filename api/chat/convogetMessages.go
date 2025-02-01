@@ -9,8 +9,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/bluesky-social/indigo/lex/util"
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/lex/util"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // ConvoGetMessages_Output is the output of a chat.bsky.convo.getMessages call.

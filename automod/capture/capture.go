@@ -3,9 +3,9 @@ package capture
 import (
 	"context"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/automod"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/automod"
 )
 
 type AccountCapture struct {

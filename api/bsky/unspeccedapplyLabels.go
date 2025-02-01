@@ -7,8 +7,8 @@ package bsky
 import (
 	"context"
 
-	comatprototypes "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/xrpc"
+	comatprototypes "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // UnspeccedApplyLabels_Input is the input argument to a app.bsky.unspecced.applyLabels call.

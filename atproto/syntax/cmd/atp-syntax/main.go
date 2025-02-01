@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/atproto/syntax"
 
 	"github.com/urfave/cli/v2"
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	events "github.com/bluesky-social/indigo/events"
-	"github.com/bluesky-social/indigo/models"
+	events "github.com/davhofer/indigo/events"
+	"github.com/davhofer/indigo/models"
 )
 
 func NewEventRingBuffer(chunkSize, nchunks int) *EventRingBuffer {

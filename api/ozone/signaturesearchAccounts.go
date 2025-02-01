@@ -7,8 +7,8 @@ package ozone
 import (
 	"context"
 
-	comatprototypes "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/xrpc"
+	comatprototypes "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // SignatureSearchAccounts_Output is the output of a tools.ozone.signature.searchAccounts call.

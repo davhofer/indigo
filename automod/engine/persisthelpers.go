@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	toolsozone "github.com/bluesky-social/indigo/api/ozone"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/automod/countstore"
-	"github.com/bluesky-social/indigo/xrpc"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	toolsozone "github.com/davhofer/indigo/api/ozone"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/automod/countstore"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 func dedupeLabelActions(labels, existing, existingNegated []string) []string {

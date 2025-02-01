@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	appbskytypes "github.com/bluesky-social/indigo/api/bsky"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
-	"github.com/bluesky-social/indigo/models"
+	appbskytypes "github.com/davhofer/indigo/api/bsky"
+	lexutil "github.com/davhofer/indigo/lex/util"
+	"github.com/davhofer/indigo/models"
 	"github.com/ipfs/go-cid"
 	cbg "github.com/whyrusleeping/cbor-gen"
 	"gorm.io/gorm"

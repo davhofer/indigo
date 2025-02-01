@@ -7,7 +7,7 @@ package chat
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // ConvoDeleteMessageForSelf_Input is the input argument to a chat.bsky.convo.deleteMessageForSelf call.

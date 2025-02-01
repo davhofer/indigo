@@ -3,7 +3,7 @@ package events
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/repomgr"
+	"github.com/davhofer/indigo/repomgr"
 
 	"github.com/gorilla/websocket"
 	cid "github.com/ipfs/go-cid"

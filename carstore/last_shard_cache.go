@@ -2,7 +2,7 @@ package carstore
 
 import (
 	"context"
-	"github.com/bluesky-social/indigo/models"
+	"github.com/davhofer/indigo/models"
 	"go.opentelemetry.io/otel"
 	"sync"
 )

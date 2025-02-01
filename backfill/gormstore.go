@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bluesky-social/indigo/repomgr"
+	"github.com/davhofer/indigo/repomgr"
 	"github.com/ipfs/go-cid"
 	"gorm.io/gorm"
 )

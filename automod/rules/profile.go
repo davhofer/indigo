@@ -1,9 +1,9 @@
 package rules
 
 import (
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/automod"
-	"github.com/bluesky-social/indigo/automod/keyword"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/automod"
+	"github.com/davhofer/indigo/automod/keyword"
 )
 
 var _ automod.PostRuleFunc = AccountDemoPostRule

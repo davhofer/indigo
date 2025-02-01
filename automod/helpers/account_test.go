@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/automod"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/automod"
 	"github.com/stretchr/testify/assert"
 )
 

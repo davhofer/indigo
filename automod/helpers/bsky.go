@@ -3,10 +3,10 @@ package helpers
 import (
 	"fmt"
 
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/automod"
-	"github.com/bluesky-social/indigo/automod/keyword"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/automod"
+	"github.com/davhofer/indigo/automod/keyword"
 )
 
 func ExtractHashtagsPost(post *appbsky.FeedPost) []string {

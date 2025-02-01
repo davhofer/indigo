@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	comatprototypes "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/lex/util"
+	comatprototypes "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/lex/util"
 )
 
 // FeedDefs_BlockedAuthor is a "blockedAuthor" in the app.bsky.feed.defs schema.

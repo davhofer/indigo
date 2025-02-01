@@ -5,8 +5,8 @@ package chat
 // schema: chat.bsky.actor.defs
 
 import (
-	comatprototypes "github.com/bluesky-social/indigo/api/atproto"
-	appbskytypes "github.com/bluesky-social/indigo/api/bsky"
+	comatprototypes "github.com/davhofer/indigo/api/atproto"
+	appbskytypes "github.com/davhofer/indigo/api/bsky"
 )
 
 // ActorDefs_ProfileViewBasic is a "profileViewBasic" in the chat.bsky.actor.defs schema.

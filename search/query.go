@@ -9,8 +9,8 @@ import (
 	"log/slog"
 	"strings"
 
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
 
 	es "github.com/opensearch-project/opensearch-go/v2"
 	"go.opentelemetry.io/otel/attribute"

@@ -4,13 +4,13 @@ import (
 	"log/slog"
 	"time"
 
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/automod/cachestore"
-	"github.com/bluesky-social/indigo/automod/countstore"
-	"github.com/bluesky-social/indigo/automod/flagstore"
-	"github.com/bluesky-social/indigo/automod/setstore"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/automod/cachestore"
+	"github.com/davhofer/indigo/automod/countstore"
+	"github.com/davhofer/indigo/automod/flagstore"
+	"github.com/davhofer/indigo/automod/setstore"
 )
 
 var _ PostRuleFunc = simpleRule

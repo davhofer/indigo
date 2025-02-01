@@ -7,7 +7,7 @@ package chat
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // ConvoGetConvoForMembers_Output is the output of a chat.bsky.convo.getConvoForMembers call.

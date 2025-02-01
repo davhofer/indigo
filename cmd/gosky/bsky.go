@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
-	"github.com/bluesky-social/indigo/util"
-	"github.com/bluesky-social/indigo/util/cliutil"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	lexutil "github.com/davhofer/indigo/lex/util"
+	"github.com/davhofer/indigo/util"
+	"github.com/davhofer/indigo/util/cliutil"
 
 	cli "github.com/urfave/cli/v2"
 )

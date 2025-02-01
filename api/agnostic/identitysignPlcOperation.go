@@ -8,7 +8,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // IdentitySignPlcOperation_Input is the input argument to a com.atproto.identity.signPlcOperation call.

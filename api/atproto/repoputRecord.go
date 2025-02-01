@@ -7,8 +7,8 @@ package atproto
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/lex/util"
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/lex/util"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // RepoPutRecord_Input is the input argument to a com.atproto.repo.putRecord call.

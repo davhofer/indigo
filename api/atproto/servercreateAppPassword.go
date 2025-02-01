@@ -7,7 +7,7 @@ package atproto
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // ServerCreateAppPassword_AppPassword is a "appPassword" in the com.atproto.server.createAppPassword schema.

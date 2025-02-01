@@ -8,7 +8,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // RepoImportRepo calls the XRPC method "com.atproto.repo.importRepo".

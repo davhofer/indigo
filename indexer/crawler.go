@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/models"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/models"
 
 	"go.opentelemetry.io/otel"
 )

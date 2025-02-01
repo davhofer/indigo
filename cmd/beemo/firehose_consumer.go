@@ -8,15 +8,15 @@ import (
 	"net/http"
 	"net/url"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/events/schedulers/parallel"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/events/schedulers/parallel"
+	lexutil "github.com/davhofer/indigo/lex/util"
 
-	"github.com/bluesky-social/indigo/events"
-	"github.com/bluesky-social/indigo/repo"
-	"github.com/bluesky-social/indigo/repomgr"
+	"github.com/davhofer/indigo/events"
+	"github.com/davhofer/indigo/repo"
+	"github.com/davhofer/indigo/repomgr"
 	"github.com/carlmjohnson/versioninfo"
 	"github.com/gorilla/websocket"
 )

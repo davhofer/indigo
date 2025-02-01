@@ -7,7 +7,7 @@ package ozone
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // SignatureFindCorrelation_Output is the output of a tools.ozone.signature.findCorrelation call.

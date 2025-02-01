@@ -5,7 +5,7 @@ package ozone
 // schema: tools.ozone.team.defs
 
 import (
-	appbskytypes "github.com/bluesky-social/indigo/api/bsky"
+	appbskytypes "github.com/davhofer/indigo/api/bsky"
 )
 
 // TeamDefs_Member is a "member" in the tools.ozone.team.defs schema.

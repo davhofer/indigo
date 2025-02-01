@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/repo"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/repo"
 
 	"github.com/ipfs/go-cid"
 	cli "github.com/urfave/cli/v2"

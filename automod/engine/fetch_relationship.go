@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/atproto/syntax"
 )
 
 // Represents app.bsky social graph relationship between a primary account, and an "other" account

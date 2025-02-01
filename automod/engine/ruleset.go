@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync"
 
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	lexutil "github.com/davhofer/indigo/lex/util"
 )
 
 // Holds configuration of which rules of various types should be run, and helps dispatch events to those rules.

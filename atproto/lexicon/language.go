@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/bluesky-social/indigo/atproto/data"
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/atproto/data"
+	"github.com/davhofer/indigo/atproto/syntax"
 
 	"github.com/rivo/uniseg"
 )

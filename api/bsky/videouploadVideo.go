@@ -8,7 +8,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // VideoUploadVideo_Output is the output of a app.bsky.video.uploadVideo call.

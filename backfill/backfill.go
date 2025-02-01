@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/repo"
-	"github.com/bluesky-social/indigo/repomgr"
+	"github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/repo"
+	"github.com/davhofer/indigo/repomgr"
 
 	"github.com/ipfs/go-cid"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"

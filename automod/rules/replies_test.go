@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/bluesky-social/indigo/automod"
-	"github.com/bluesky-social/indigo/automod/capture"
-	"github.com/bluesky-social/indigo/automod/engine"
+	"github.com/davhofer/indigo/automod"
+	"github.com/davhofer/indigo/automod/capture"
+	"github.com/davhofer/indigo/automod/engine"
 
 	"github.com/stretchr/testify/assert"
 )

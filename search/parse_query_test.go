@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
 
 	"github.com/stretchr/testify/assert"
 )

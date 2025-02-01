@@ -1,8 +1,8 @@
 package rules
 
 import (
-	"github.com/bluesky-social/indigo/automod"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
+	"github.com/davhofer/indigo/automod"
+	lexutil "github.com/davhofer/indigo/lex/util"
 )
 
 var _ automod.BlobRuleFunc = BlobVerifyRule

@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/carstore"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
-	"github.com/bluesky-social/indigo/models"
-	"github.com/bluesky-social/indigo/util"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/carstore"
+	lexutil "github.com/davhofer/indigo/lex/util"
+	"github.com/davhofer/indigo/models"
+	"github.com/davhofer/indigo/util"
 	arc "github.com/hashicorp/golang-lru/arc/v2"
 
 	cid "github.com/ipfs/go-cid"

@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/repo"
-	"github.com/bluesky-social/indigo/util"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/repo"
+	"github.com/davhofer/indigo/util"
 
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-datastore"

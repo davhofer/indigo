@@ -21,9 +21,9 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
 	"golang.org/x/time/rate"
 
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/search"
-	"github.com/bluesky-social/indigo/util/cliutil"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/search"
+	"github.com/davhofer/indigo/util/cliutil"
 
 	"github.com/carlmjohnson/versioninfo"
 	es "github.com/opensearch-project/opensearch-go/v2"

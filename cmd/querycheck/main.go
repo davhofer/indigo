@@ -13,8 +13,8 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 
-	"github.com/bluesky-social/indigo/querycheck"
-	"github.com/bluesky-social/indigo/util/tracing"
+	"github.com/davhofer/indigo/querycheck"
+	"github.com/davhofer/indigo/util/tracing"
 	"github.com/labstack/echo-contrib/pprof"
 	"github.com/labstack/echo/v4"
 

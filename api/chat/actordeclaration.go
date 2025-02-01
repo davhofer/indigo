@@ -5,7 +5,7 @@ package chat
 // schema: chat.bsky.actor.declaration
 
 import (
-	"github.com/bluesky-social/indigo/lex/util"
+	"github.com/davhofer/indigo/lex/util"
 )
 
 func init() {

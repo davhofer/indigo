@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
-	"github.com/bluesky-social/indigo/models"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	lexutil "github.com/davhofer/indigo/lex/util"
+	"github.com/davhofer/indigo/models"
 	"github.com/prometheus/client_golang/prometheus"
 
 	cbg "github.com/whyrusleeping/cbor-gen"

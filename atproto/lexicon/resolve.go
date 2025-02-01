@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/bluesky-social/indigo/api/agnostic"
-	"github.com/bluesky-social/indigo/atproto/data"
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/api/agnostic"
+	"github.com/davhofer/indigo/atproto/data"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // Low-level routine for resolving an NSID to full Lexicon data record (as stored in a repository).

@@ -19,13 +19,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bluesky-social/indigo/api/atproto"
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/bgs"
-	events "github.com/bluesky-social/indigo/events"
-	"github.com/bluesky-social/indigo/events/schedulers/sequential"
-	"github.com/bluesky-social/indigo/util"
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/api/atproto"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/bgs"
+	events "github.com/davhofer/indigo/events"
+	"github.com/davhofer/indigo/events/schedulers/sequential"
+	"github.com/davhofer/indigo/util"
+	"github.com/davhofer/indigo/xrpc"
 	"github.com/gorilla/websocket"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
@@ -253,7 +253,7 @@ var homeMessage string = `
 | '_/ _' | | ' \| '_ \/ _ \ V  V /
 |_| \__,_|_|_||_|_.__/\___/\_/\_/
 
-This is an atproto [https://atproto.com] firehose fanout service, running the 'rainbow' codebase [https://github.com/bluesky-social/indigo]
+This is an atproto [https://atproto.com] firehose fanout service, running the 'rainbow' codebase [https://github.com/davhofer/indigo]
 
 The firehose WebSocket path is at:  /xrpc/com.atproto.sync.subscribeRepos
 `

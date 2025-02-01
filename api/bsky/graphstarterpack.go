@@ -5,7 +5,7 @@ package bsky
 // schema: app.bsky.graph.starterpack
 
 import (
-	"github.com/bluesky-social/indigo/lex/util"
+	"github.com/davhofer/indigo/lex/util"
 )
 
 func init() {

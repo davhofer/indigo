@@ -7,7 +7,7 @@ package chat
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // ModerationGetActorMetadata_Metadata is a "metadata" in the chat.bsky.moderation.getActorMetadata schema.

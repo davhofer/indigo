@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	appbskytypes "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/lex/util"
+	appbskytypes "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/lex/util"
 )
 
 // ConvoDefs_ConvoView is a "convoView" in the chat.bsky.convo.defs schema.

@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	comatprototypes "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/lex/util"
+	comatprototypes "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/lex/util"
 )
 
 // ActorDefs_AdultContentPref is a "adultContentPref" in the app.bsky.actor.defs schema.

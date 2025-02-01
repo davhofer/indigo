@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/repo"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/repo"
 )
 
 // ipfs dag import testing/repo_slice.car

@@ -1,7 +1,7 @@
 package data
 
 import (
-	"github.com/bluesky-social/indigo/models"
+	"github.com/davhofer/indigo/models"
 	"gorm.io/gorm"
 	"time"
 )

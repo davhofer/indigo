@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bluesky-social/indigo/repo"
+	"github.com/davhofer/indigo/repo"
 
 	"github.com/ipfs/go-datastore"
 	blockstore "github.com/ipfs/go-ipfs-blockstore"

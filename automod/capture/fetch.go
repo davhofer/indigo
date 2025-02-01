@@ -5,11 +5,11 @@ import (
 	"context"
 	"fmt"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/automod"
-	"github.com/bluesky-social/indigo/xrpc"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/automod"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 func FetchAndProcessRecord(ctx context.Context, eng *automod.Engine, aturi syntax.ATURI) error {

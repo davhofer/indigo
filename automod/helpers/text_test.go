@@ -3,7 +3,7 @@ package helpers
 import (
 	"testing"
 
-	"github.com/bluesky-social/indigo/automod/keyword"
+	"github.com/davhofer/indigo/automod/keyword"
 
 	"github.com/stretchr/testify/assert"
 )

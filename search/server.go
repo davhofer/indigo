@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bluesky-social/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/identity"
 
 	"github.com/carlmjohnson/versioninfo"
 	"github.com/labstack/echo/v4"

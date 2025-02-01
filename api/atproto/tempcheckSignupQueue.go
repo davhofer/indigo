@@ -7,7 +7,7 @@ package atproto
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // TempCheckSignupQueue_Output is the output of a com.atproto.temp.checkSignupQueue call.

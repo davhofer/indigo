@@ -5,7 +5,7 @@ package bsky
 // schema: app.bsky.labeler.defs
 
 import (
-	comatprototypes "github.com/bluesky-social/indigo/api/atproto"
+	comatprototypes "github.com/davhofer/indigo/api/atproto"
 )
 
 // LabelerDefs_LabelerPolicies is a "labelerPolicies" in the app.bsky.labeler.defs schema.

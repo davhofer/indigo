@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/RussellLuo/slidingwindow"
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
+	comatproto "github.com/davhofer/indigo/api/atproto"
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/gorilla/websocket"

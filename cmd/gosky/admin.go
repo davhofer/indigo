@@ -10,13 +10,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bluesky-social/indigo/api"
-	"github.com/bluesky-social/indigo/api/atproto"
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	toolsozone "github.com/bluesky-social/indigo/api/ozone"
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/util/cliutil"
+	"github.com/davhofer/indigo/api"
+	"github.com/davhofer/indigo/api/atproto"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	toolsozone "github.com/davhofer/indigo/api/ozone"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/util/cliutil"
 	cli "github.com/urfave/cli/v2"
 )
 

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/xrpc"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/xrpc"
 
 	"github.com/urfave/cli/v2"
 )

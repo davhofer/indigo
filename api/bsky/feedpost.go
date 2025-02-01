@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"io"
 
-	comatprototypes "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/lex/util"
+	comatprototypes "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/lex/util"
 	cbg "github.com/whyrusleeping/cbor-gen"
 )
 

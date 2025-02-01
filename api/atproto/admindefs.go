@@ -5,7 +5,7 @@ package atproto
 // schema: com.atproto.admin.defs
 
 import (
-	"github.com/bluesky-social/indigo/lex/util"
+	"github.com/davhofer/indigo/lex/util"
 )
 
 // AdminDefs_AccountView is a "accountView" in the com.atproto.admin.defs schema.

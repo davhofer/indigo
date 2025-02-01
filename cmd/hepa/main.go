@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/identity/redisdir"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/automod/capture"
-	"github.com/bluesky-social/indigo/automod/consumer"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/identity/redisdir"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/automod/capture"
+	"github.com/davhofer/indigo/automod/consumer"
 
 	"github.com/carlmjohnson/versioninfo"
 	_ "github.com/joho/godotenv/autoload"

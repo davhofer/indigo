@@ -7,7 +7,7 @@ package atproto
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // RepoDeleteRecord_Input is the input argument to a com.atproto.repo.deleteRecord call.

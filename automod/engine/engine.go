@@ -7,14 +7,14 @@ import (
 	"net/http"
 	"time"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/automod/cachestore"
-	"github.com/bluesky-social/indigo/automod/countstore"
-	"github.com/bluesky-social/indigo/automod/flagstore"
-	"github.com/bluesky-social/indigo/automod/setstore"
-	"github.com/bluesky-social/indigo/xrpc"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/automod/cachestore"
+	"github.com/davhofer/indigo/automod/countstore"
+	"github.com/davhofer/indigo/automod/flagstore"
+	"github.com/davhofer/indigo/automod/setstore"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // runtime for executing rules, managing state, and recording moderation actions.

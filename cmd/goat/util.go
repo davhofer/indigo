@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
 )
 
 func resolveIdent(ctx context.Context, arg string) (*identity.Identity, error) {

@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/RussellLuo/slidingwindow"
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/events"
-	"github.com/bluesky-social/indigo/events/schedulers/parallel"
-	"github.com/bluesky-social/indigo/models"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/events"
+	"github.com/davhofer/indigo/events/schedulers/parallel"
+	"github.com/davhofer/indigo/models"
 	"go.opentelemetry.io/otel"
 	"golang.org/x/time/rate"
 

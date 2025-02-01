@@ -11,10 +11,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/util"
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/util"
+	"github.com/davhofer/indigo/xrpc"
 
 	"github.com/flosch/pongo2/v6"
 	"github.com/labstack/echo-contrib/echoprometheus"

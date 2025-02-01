@@ -19,8 +19,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bluesky-social/indigo/atproto/data"
-	"github.com/bluesky-social/indigo/repo"
+	"github.com/davhofer/indigo/atproto/data"
+	"github.com/davhofer/indigo/repo"
 	"github.com/ipfs/go-cid"
 	_ "github.com/joho/godotenv/autoload"
 	"github.com/prometheus/client_golang/prometheus"

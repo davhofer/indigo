@@ -3,7 +3,7 @@ package helpers
 import (
 	"time"
 
-	"github.com/bluesky-social/indigo/automod"
+	"github.com/davhofer/indigo/automod"
 )
 
 // no accounts exist before this time

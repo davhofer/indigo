@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	toolsozone "github.com/bluesky-social/indigo/api/ozone"
-	"github.com/bluesky-social/indigo/util"
-	"github.com/bluesky-social/indigo/xrpc"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	toolsozone "github.com/davhofer/indigo/api/ozone"
+	"github.com/davhofer/indigo/util"
+	"github.com/davhofer/indigo/xrpc"
 
 	"github.com/urfave/cli/v2"
 )

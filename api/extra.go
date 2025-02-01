@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bluesky-social/indigo/did"
+	"github.com/davhofer/indigo/did"
 	arc "github.com/hashicorp/golang-lru/arc/v2"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	otel "go.opentelemetry.io/otel"

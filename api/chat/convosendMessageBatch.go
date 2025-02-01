@@ -7,7 +7,7 @@ package chat
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // ConvoSendMessageBatch_BatchItem is a "batchItem" in the chat.bsky.convo.sendMessageBatch schema.

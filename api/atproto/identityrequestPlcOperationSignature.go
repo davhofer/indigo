@@ -7,7 +7,7 @@ package atproto
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // IdentityRequestPlcOperationSignature calls the XRPC method "com.atproto.identity.requestPlcOperationSignature".

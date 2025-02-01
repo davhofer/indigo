@@ -7,7 +7,7 @@ package agnostic
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // RepoDefs_CommitMeta is a "commitMeta" in the com.atproto.repo.defs schema.

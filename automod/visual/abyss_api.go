@@ -1,7 +1,7 @@
 package visual
 
 import (
-	lexutil "github.com/bluesky-social/indigo/lex/util"
+	lexutil "github.com/davhofer/indigo/lex/util"
 )
 
 type AbyssScanResp struct {

@@ -6,12 +6,12 @@ import (
 	"log/slog"
 	"testing"
 
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/automod"
-	"github.com/bluesky-social/indigo/automod/engine"
-	"github.com/bluesky-social/indigo/automod/helpers"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/automod"
+	"github.com/davhofer/indigo/automod/engine"
+	"github.com/davhofer/indigo/automod/helpers"
 
 	"github.com/stretchr/testify/assert"
 )

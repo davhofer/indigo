@@ -7,7 +7,7 @@ package ozone
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // CommunicationCreateTemplate_Input is the input argument to a tools.ozone.communication.createTemplate call.

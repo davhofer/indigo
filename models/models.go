@@ -6,8 +6,8 @@ import (
 
 	"gorm.io/gorm"
 
-	bsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/xrpc"
+	bsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 type FeedPost struct {

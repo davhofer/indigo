@@ -3,8 +3,8 @@ package rules
 import (
 	"strings"
 
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/automod"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/automod"
 )
 
 func MisleadingLinkUnicodeReversalPostRule(c *automod.RecordContext, post *appbsky.FeedPost) error {

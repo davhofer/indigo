@@ -8,8 +8,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/bluesky-social/indigo/lex/util"
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/lex/util"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // RepoUploadBlob_Output is the output of a com.atproto.repo.uploadBlob call.

@@ -7,7 +7,7 @@ package atproto
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // AdminGetInviteCodes_Output is the output of a com.atproto.admin.getInviteCodes call.

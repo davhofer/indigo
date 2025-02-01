@@ -7,8 +7,8 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/bluesky-social/indigo/automod/keyword"
-	"github.com/bluesky-social/indigo/automod/setstore"
+	"github.com/davhofer/indigo/automod/keyword"
+	"github.com/davhofer/indigo/automod/setstore"
 
 	"github.com/urfave/cli/v2"
 )

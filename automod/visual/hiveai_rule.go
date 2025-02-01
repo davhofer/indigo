@@ -4,9 +4,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bluesky-social/indigo/automod"
-	"github.com/bluesky-social/indigo/automod/helpers"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
+	"github.com/davhofer/indigo/automod"
+	"github.com/davhofer/indigo/automod/helpers"
+	lexutil "github.com/davhofer/indigo/lex/util"
 )
 
 func (hal *HiveAIClient) HiveLabelBlobRule(c *automod.RecordContext, blob lexutil.LexBlob, data []byte) error {

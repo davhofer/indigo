@@ -7,7 +7,7 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/bluesky-social/indigo/atproto/lexicon"
+	"github.com/davhofer/indigo/atproto/lexicon"
 
 	"github.com/urfave/cli/v2"
 )

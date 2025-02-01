@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	comatprototypes "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/lex/util"
-	"github.com/bluesky-social/indigo/xrpc"
+	comatprototypes "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/lex/util"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // ModerationEmitEvent_Input is the input argument to a tools.ozone.moderation.emitEvent call.

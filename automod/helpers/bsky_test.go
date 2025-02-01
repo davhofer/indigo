@@ -1,8 +1,8 @@
 package helpers
 
 import (
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	appbsky "github.com/davhofer/indigo/api/bsky"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

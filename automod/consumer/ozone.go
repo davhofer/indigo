@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	toolsozone "github.com/bluesky-social/indigo/api/ozone"
-	"github.com/bluesky-social/indigo/atproto/syntax"
-	"github.com/bluesky-social/indigo/automod"
-	"github.com/bluesky-social/indigo/xrpc"
+	toolsozone "github.com/davhofer/indigo/api/ozone"
+	"github.com/davhofer/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/automod"
+	"github.com/davhofer/indigo/xrpc"
 
 	"github.com/redis/go-redis/v9"
 )

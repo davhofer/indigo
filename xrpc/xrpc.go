@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bluesky-social/indigo/util"
+	"github.com/davhofer/indigo/util"
 	"github.com/carlmjohnson/versioninfo"
 )
 

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/atproto/syntax"
 )
 
 func parseTXTResp(res []string) (syntax.DID, error) {

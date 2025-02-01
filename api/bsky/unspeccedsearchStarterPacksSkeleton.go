@@ -7,7 +7,7 @@ package bsky
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // UnspeccedSearchStarterPacksSkeleton_Output is the output of a app.bsky.unspecced.searchStarterPacksSkeleton call.

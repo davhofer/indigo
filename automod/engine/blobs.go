@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bluesky-social/indigo/atproto/data"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
+	"github.com/davhofer/indigo/atproto/data"
+	lexutil "github.com/davhofer/indigo/lex/util"
 
 	"github.com/carlmjohnson/versioninfo"
 )

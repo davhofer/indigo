@@ -7,7 +7,7 @@ package bsky
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // GraphGetStarterPacks_Output is the output of a app.bsky.graph.getStarterPacks call.

@@ -10,9 +10,9 @@ import (
 	"net/http"
 	"testing"
 
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
 
 	"github.com/ipfs/go-cid"
 	es "github.com/opensearch-project/opensearch-go/v2"
@@ -107,7 +107,7 @@ func TestJapaneseRegressions(t *testing.T) {
 	p1 := appbsky.FeedPost{Text: "basic english post", CreatedAt: "2024-01-02T03:04:05.006Z"}
 	assert.NoError(srv.indexPost(ctx, &ident, &p1, "app.bsky.feed.post/3kpnillluoh2y", cid.Undef))
 
-	// https://github.com/bluesky-social/indigo/issues/302
+	// https://github.com/davhofer/indigo/issues/302
 	p2 := appbsky.FeedPost{Text: "学校から帰って熱いお風呂に入ったら力一杯がんばる", CreatedAt: "2024-01-02T03:04:05.006Z"}
 	assert.NoError(srv.indexPost(ctx, &ident, &p2, "app.bsky.feed.post/3kpnillluo222", cid.Undef))
 	p3 := appbsky.FeedPost{Text: "熱力学", CreatedAt: "2024-01-02T03:04:05.006Z"}

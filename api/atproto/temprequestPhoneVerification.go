@@ -7,7 +7,7 @@ package atproto
 import (
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // TempRequestPhoneVerification_Input is the input argument to a com.atproto.temp.requestPhoneVerification call.

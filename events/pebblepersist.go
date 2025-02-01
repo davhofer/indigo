@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bluesky-social/indigo/models"
+	"github.com/davhofer/indigo/models"
 	"github.com/cockroachdb/pebble"
 )
 

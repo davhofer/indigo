@@ -5,7 +5,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/bluesky-social/indigo/models"
+	"github.com/davhofer/indigo/models"
 	"github.com/gocql/gocql"
 	blockformat "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"

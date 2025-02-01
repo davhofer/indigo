@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/bluesky-social/indigo/models"
+	"github.com/davhofer/indigo/models"
 )
 
 // YoloPersister is used for benchmarking, it has no persistence, it just emits events and forgets them

@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/bluesky-social/indigo/atproto/data"
+	"github.com/davhofer/indigo/atproto/data"
 
 	"github.com/stretchr/testify/assert"
 )

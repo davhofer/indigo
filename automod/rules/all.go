@@ -1,7 +1,7 @@
 package rules
 
 import (
-	"github.com/bluesky-social/indigo/automod"
+	"github.com/davhofer/indigo/automod"
 )
 
 // IMPORTANT: reminder that these are the indigo-edition rules, not production rules

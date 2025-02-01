@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/automod"
-	"github.com/bluesky-social/indigo/automod/countstore"
-	"github.com/bluesky-social/indigo/automod/helpers"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/automod"
+	"github.com/davhofer/indigo/automod/countstore"
+	"github.com/davhofer/indigo/automod/helpers"
 )
 
 var _ automod.PostRuleFunc = AggressivePromotionRule

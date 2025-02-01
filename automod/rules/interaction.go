@@ -3,8 +3,8 @@ package rules
 import (
 	"fmt"
 
-	"github.com/bluesky-social/indigo/automod"
-	"github.com/bluesky-social/indigo/automod/countstore"
+	"github.com/davhofer/indigo/automod"
+	"github.com/davhofer/indigo/automod/countstore"
 )
 
 var interactionDailyThreshold = 800

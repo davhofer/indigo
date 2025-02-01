@@ -3,16 +3,16 @@ package main
 import (
 	"reflect"
 
-	"github.com/bluesky-social/indigo/api"
-	atproto "github.com/bluesky-social/indigo/api/atproto"
-	bsky "github.com/bluesky-social/indigo/api/bsky"
-	chat "github.com/bluesky-social/indigo/api/chat"
-	"github.com/bluesky-social/indigo/atproto/data"
-	"github.com/bluesky-social/indigo/events"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
-	"github.com/bluesky-social/indigo/mst"
-	"github.com/bluesky-social/indigo/repo"
-	"github.com/bluesky-social/indigo/util/labels"
+	"github.com/davhofer/indigo/api"
+	atproto "github.com/davhofer/indigo/api/atproto"
+	bsky "github.com/davhofer/indigo/api/bsky"
+	chat "github.com/davhofer/indigo/api/chat"
+	"github.com/davhofer/indigo/atproto/data"
+	"github.com/davhofer/indigo/events"
+	lexutil "github.com/davhofer/indigo/lex/util"
+	"github.com/davhofer/indigo/mst"
+	"github.com/davhofer/indigo/repo"
+	"github.com/davhofer/indigo/util/labels"
 
 	cbg "github.com/whyrusleeping/cbor-gen"
 )

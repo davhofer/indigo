@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/atproto/syntax"
 
 	"github.com/labstack/echo/v4"
 	otel "go.opentelemetry.io/otel"

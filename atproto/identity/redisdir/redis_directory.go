@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
 
 	"github.com/go-redis/cache/v9"
 	"github.com/redis/go-redis/v9"

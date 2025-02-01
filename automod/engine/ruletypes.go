@@ -1,8 +1,8 @@
 package engine
 
 import (
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	lexutil "github.com/bluesky-social/indigo/lex/util"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	lexutil "github.com/davhofer/indigo/lex/util"
 )
 
 type IdentityRuleFunc = func(c *AccountContext) error

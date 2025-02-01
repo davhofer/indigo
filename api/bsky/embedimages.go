@@ -5,7 +5,7 @@ package bsky
 // schema: app.bsky.embed.images
 
 import (
-	"github.com/bluesky-social/indigo/lex/util"
+	"github.com/davhofer/indigo/lex/util"
 )
 
 func init() {

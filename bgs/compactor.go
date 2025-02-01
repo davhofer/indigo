@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bluesky-social/indigo/carstore"
-	"github.com/bluesky-social/indigo/models"
+	"github.com/davhofer/indigo/carstore"
+	"github.com/davhofer/indigo/models"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 )

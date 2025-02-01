@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/bluesky-social/indigo/lex/util"
+	"github.com/davhofer/indigo/lex/util"
 	cbg "github.com/whyrusleeping/cbor-gen"
 )
 

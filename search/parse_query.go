@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bluesky-social/indigo/atproto/identity"
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/syntax"
 )
 
 // ParseQuery takes a query string and pulls out some facet patterns ("from:handle.net") as filters

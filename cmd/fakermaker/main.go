@@ -11,9 +11,9 @@ import (
 	"os"
 	"runtime"
 
-	comatproto "github.com/bluesky-social/indigo/api/atproto"
-	"github.com/bluesky-social/indigo/fakedata"
-	"github.com/bluesky-social/indigo/util/cliutil"
+	comatproto "github.com/davhofer/indigo/api/atproto"
+	"github.com/davhofer/indigo/fakedata"
+	"github.com/davhofer/indigo/util/cliutil"
 
 	_ "github.com/joho/godotenv/autoload"
 	_ "go.uber.org/automaxprocs"

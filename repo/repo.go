@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
-	lexutil "github.com/bluesky-social/indigo/lex/util"
-	"github.com/bluesky-social/indigo/mst"
-	"github.com/bluesky-social/indigo/util"
+	lexutil "github.com/davhofer/indigo/lex/util"
+	"github.com/davhofer/indigo/mst"
+	"github.com/davhofer/indigo/util"
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-datastore"
 	blockstore "github.com/ipfs/go-ipfs-blockstore"

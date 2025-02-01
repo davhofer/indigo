@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	appbsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/automod"
-	"github.com/bluesky-social/indigo/automod/helpers"
-	"github.com/bluesky-social/indigo/automod/keyword"
+	appbsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/automod"
+	"github.com/davhofer/indigo/automod/helpers"
+	"github.com/davhofer/indigo/automod/keyword"
 )
 
 func BadWordPostRule(c *automod.RecordContext, post *appbsky.FeedPost) error {

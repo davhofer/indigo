@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	lex "github.com/bluesky-social/indigo/lex"
+	lex "github.com/davhofer/indigo/lex"
 	cli "github.com/urfave/cli/v2"
 )
 

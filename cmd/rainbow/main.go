@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bluesky-social/indigo/events"
-	"github.com/bluesky-social/indigo/splitter"
+	"github.com/davhofer/indigo/events"
+	"github.com/davhofer/indigo/splitter"
 
 	"github.com/carlmjohnson/versioninfo"
 	_ "github.com/joho/godotenv/autoload"

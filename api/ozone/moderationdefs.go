@@ -8,9 +8,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	comatprototypes "github.com/bluesky-social/indigo/api/atproto"
-	chatbskytypes "github.com/bluesky-social/indigo/api/chat"
-	"github.com/bluesky-social/indigo/lex/util"
+	comatprototypes "github.com/davhofer/indigo/api/atproto"
+	chatbskytypes "github.com/davhofer/indigo/api/chat"
+	"github.com/davhofer/indigo/lex/util"
 )
 
 // ModerationDefs_AccountEvent is a "accountEvent" in the tools.ozone.moderation.defs schema.

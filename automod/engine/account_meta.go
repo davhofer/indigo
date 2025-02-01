@@ -3,7 +3,7 @@ package engine
 import (
 	"time"
 
-	"github.com/bluesky-social/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/identity"
 )
 
 var (

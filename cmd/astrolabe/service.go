@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bluesky-social/indigo/atproto/identity"
+	"github.com/davhofer/indigo/atproto/identity"
 
 	"github.com/flosch/pongo2/v6"
 	"github.com/labstack/echo/v4"

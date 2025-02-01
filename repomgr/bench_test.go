@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	bsky "github.com/bluesky-social/indigo/api/bsky"
-	"github.com/bluesky-social/indigo/carstore"
-	"github.com/bluesky-social/indigo/util"
+	bsky "github.com/davhofer/indigo/api/bsky"
+	"github.com/davhofer/indigo/carstore"
+	"github.com/davhofer/indigo/util"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

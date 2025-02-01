@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/bluesky-social/indigo/xrpc"
+	"github.com/davhofer/indigo/xrpc"
 )
 
 // ActorExportAccountData calls the XRPC method "chat.bsky.actor.exportAccountData".

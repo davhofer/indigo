@@ -13,9 +13,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bluesky-social/indigo/events"
-	"github.com/bluesky-social/indigo/events/schedulers/sequential"
-	"github.com/bluesky-social/indigo/sonar"
+	"github.com/davhofer/indigo/events"
+	"github.com/davhofer/indigo/events/schedulers/sequential"
+	"github.com/davhofer/indigo/sonar"
 	"github.com/gorilla/websocket"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	_ "go.uber.org/automaxprocs"

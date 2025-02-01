@@ -1,7 +1,7 @@
 package identity
 
 import (
-	"github.com/bluesky-social/indigo/atproto/syntax"
+	"github.com/davhofer/indigo/atproto/syntax"
 )
 
 type DIDDocument struct {

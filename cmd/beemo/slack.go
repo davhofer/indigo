@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/bluesky-social/indigo/util"
+	"github.com/davhofer/indigo/util"
 )
 
 type SlackWebhookBody struct {

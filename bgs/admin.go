@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bluesky-social/indigo/models"
+	"github.com/davhofer/indigo/models"
 	"github.com/labstack/echo/v4"
 	dto "github.com/prometheus/client_model/go"
 	"go.opentelemetry.io/otel"
